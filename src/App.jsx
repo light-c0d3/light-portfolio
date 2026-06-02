@@ -1,24 +1,8 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
-
-import Navbar from "./comps/navbar";
-
-import LandingPage from "./pages/LandingPage";
-import ProjectsAll from "./pages/ProjectsAll";
-
-function App() {
-  return (
-    <BrowserRouter>
-      <Navbar />
-
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/projects/all" element={<ProjectsAll />} />
-      </Routes>
-    </BrowserRouter>
-  );
+export default function App() {
+  return <h1 style={{ color: "red" }}>APP WORKS</h1>
 }
 
-export default App;
+
 
 /*import Navbar from "./comps/navbar"
 import Home from './sects/home.jsx'
