@@ -1,3 +1,11 @@
+
+function App() {
+  return <h1 style={{ color: "green" }}>APP WORKS</h1>;
+}
+
+export default App;
+
+/*
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./comps/navbar";
@@ -18,6 +26,10 @@ function App() {
 }
 
 export default App;
+*/
+
+
+
 
 
 /*
